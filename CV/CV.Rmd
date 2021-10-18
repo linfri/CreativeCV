@@ -43,9 +43,9 @@ readxl::read_excel("education.xlsx") %>% detailed_entries(what = Degree,
 ```{r}
 # Description of my courses
 readxl::read_excel("courses.xlsx") %>% detailed_entries(what = Course,
-                                                          when = Year,
-                                                          with = Institution,
-                                                          why = Code)
+                                                        when = Year,
+                                                        with = Institution,
+                                                        why = Code)
 
 ```
 
@@ -56,10 +56,10 @@ readxl::read_excel("courses.xlsx") %>% detailed_entries(what = Course,
 ```{r}
 # Description of my certificates
 readxl::read_excel("certificates.xlsx") %>% detailed_entries(what = Certificate,
-                                                          when = Year,
-                                                          with = Organisation,
-                                                          where = Location,
-                                                          why = Description)
+                                                             when = Year,
+                                                             with = Organisation,
+                                                             where = Location,
+                                                             why = Description)
 
 ```
 
@@ -70,10 +70,10 @@ readxl::read_excel("certificates.xlsx") %>% detailed_entries(what = Certificate,
 ```{r}
 # Description of my work experience
 readxl::read_excel("experience.xlsx") %>% detailed_entries(what = Position,
-                                                          when = Year,
-                                                          with = Company,
-                                                          where = Location,
-                                                          why = Description)
+                                                           when = Year,
+                                                           with = Company,
+                                                           where = Location,
+                                                           why = Description)
 
 ```
 
