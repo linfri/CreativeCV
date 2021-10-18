@@ -1,0 +1,79 @@
+---
+name: Linn
+surname: Friberg
+position: "Statistics Student, App Developer"
+address: "Location: Norrköping, Sweden"
+github: linfri
+linkedin: linfri
+date: "`r format(Sys.time(), '%B %Y')`"
+output: vitae::moderncv
+---
+
+```{r setup, include=FALSE}
+# Loading the libraries
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(tibble)
+library(readxl)
+
+```
+
+# About Me
+
+ * Passionate about R development, including Shiny web apps and Plumber APIs;
+ * Learning new things continuously in parallel with my university studies;
+ * Planning my own side projects as microservices with data-driven approach;
+ * Mastering the art of interdisciplinary collaboration, with proven record of projects;
+ * Fluent in English and Swedish, elementary proficiency in Icelandic.  
+
+\hfill\break
+
+# Education
+
+```{r}
+# Description of my education
+readxl::read_excel("education.xlsx") %>% detailed_entries(what = Degree,
+                                                          when = Year,
+                                                          with = Institution)
+
+```
+
+# Courses
+
+```{r}
+# Description of my courses
+readxl::read_excel("courses.xlsx") %>% detailed_entries(what = Course,
+                                                          when = Year,
+                                                          with = Institution,
+                                                          why = Code)
+
+```
+
+\hfill\break
+
+# Certificates
+
+```{r}
+# Description of my certificates
+readxl::read_excel("certificates.xlsx") %>% detailed_entries(what = Certificate,
+                                                          when = Year,
+                                                          with = Organisation,
+                                                          where = Location,
+                                                          why = Description)
+
+```
+
+\hfill\break
+
+# Recent Work Experience
+
+```{r}
+# Description of my work experience
+readxl::read_excel("experience.xlsx") %>% detailed_entries(what = Position,
+                                                          when = Year,
+                                                          with = Company,
+                                                          where = Location,
+                                                          why = Description)
+
+```
+
