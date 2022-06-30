@@ -1,0 +1,51 @@
+---
+name: Nimbostrata
+position: "Artistic Alias"
+address: "Norrköping, Sweden"
+www: archive.org/details/linfri-repo
+date: "July 2019 - Present"
+output: vitae::hyndman
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# Biography
+
+\  
+
+Nimbostrata is the artistic alias of Linn Friberg, in use since July 2019. Nimbostrata was first envisioned as a post-metal music project, something that would build upon the sound and style of the albums "Chromatic Red" by Dawnbreaker and "Lotus Sutra" by RAINE. Nimbostrata was also meant to be a way to get back into music-making after pursuing other facets in life. After just one-and-a-half months the concept of Nimbostrata changed radically. This was evident in the demo recording that would later become the album "Polarities". Different kinds of collaborators would be featured in her music production process, including her old contacts from the time when she ran the label Nova Beat Estate and new contacts she made on the netlabel scene in 2019. Also, Linn's contacts within the local wellness scene had a certain impact on her music in 2019 and 2020, shaping the sound and direction of the project in a completely new way. The albums were created within Nova Beat Estate, which has been revived as a production alias. Trine Nielsen, a musician from Norway, and Fabian van den Eijnden, a Dutch musician based in Egypt, both contributed greatly to the albums.
+
+\  
+
+Nimbostrata went inactive after the release of all the albums in 2020 because Linn was attempting to redefine her musical identity. In 2021, Linn was releasing music under her own name and within the PARADIGM series. When she joined the uni.Sol_ nexus, the concept of Nimbostrata mutated once again; it was reactivated for the purpose of releasing field recordings from Linn's trips abroad. The innovative sounds of Slavek Kwi, a.k.a. Artificial Memory Trace, helped forge the second "path" within Nimbostrata, keeping it on the track of highly mutable experimental music. In 2022, Linn expanded the genre definition of Nimbostrata to encompass nearly anything within music, be it ambient music, metal, trance, IDM, industrial music, vaporwave, New Age, or even indie pop. Since then, Nimbostrata would always be highly mutable and give broad creative freedom with very few constraints. In the Nimbostrata paradigm, music is something that is always in flux, never remaining the same for long. It is always evolving and has a "soul", but is often difficult to understand fully. The music holds hidden currents and meanings deep inside, like a rain cloud.
+
+\  
+
+The music by Nimbostrata is available as free downloads from the **[Internet Archive](https://archive.org/search.php?query=subject%3A%22nimbostrata%22&and[]=subject%3A%22linn+friberg%22)**. Moreover, the **[Fiat Lux](https://audius.co/fiatlux)** podcast series contains a number of compilation tracks and extras that cannot be found anywhere else.
+
+\  
+
+# Discography
+
+```{r}
+library(tibble)
+tribble(
+  ~ Album, ~ Year, ~ Label, 
+  "Open Sky Manifesto (with Thomas Park)", "2020", "Hvedrungrsmil Records",
+  "Between Dreams And Reality (with Thomas Park)", "2020", "Hvedrungrsmil Records",
+  "Currents (with Riversky)", "2020", "Kalamine Records",
+  "Polarities (with Helen Larsson)", "2020", "Kalamine Records",
+  "P0STRVTH (with Images Without Resemblance)", "2020", "Kalamine Records",
+  "Polar Opposites", "2021", "Soundctuary",
+  "Visual ph0n0x 00 (with Artificial Memory Trace)", "2021", "Artificial Memory Trace",
+  "Un Voyage À Bruxelles", "2022", "Soundctuary",
+  "Final Reveal", "2022", "uni.Sol_",
+  "PARADIGM: Limitless Potential", "2022", "Kalamine Records"
+) %>% 
+  detailed_entries(Album, Year, Label)
+
+```
+
