@@ -1,0 +1,64 @@
+---
+name: INTENT
+position: "Compilation Series"
+address: "Norrköping, Sweden"
+www: archive.org/details/linfri-repo
+date: "January 2020 - Present"
+output: vitae::hyndman
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# Biography
+
+\  
+
+INTENT is an ongoing compilation series that encourages and inspires electronic and experimental music artists from all over the world to create their own reality by setting intentions for the coming year. The idea behind INTENT stems from three different sources: the book "Biocentrism: How Life and Consciousness are the Keys to Understanding the True Nature of the Universe" by Robert Lanza and Bob Berman, the art installation series "Wish Tree" by Yoko Ono, and the workshop "Sätt din intention" held by Aleksandra Chaladus in Shine Café & Holistic Center (Stockholm, Sweden) in December 2019. The compilation series has been produced annually since 2020 by Linn Friberg from Sweden and released via the French netlabel **[Kalamine Records](https://kalaminerecords.com)**.
+
+\  
+
+The first installment of the series, "INTENT 2020", was defined by the involvement of Aleksandra Chaladus in collaboration with Björn-Erik Wilén, a Swedish musician residing in South Africa. This installment was produced by Nova Beat Estate, a record label run by Linn Friberg from 2006 to 2012, resurrected as a production alias in 2019 and retired in 2021. "INTENT 2020" features 34 tracks by artists from a variety of countries, including the United Kingdom, the United States, Germany, Belgium, France, Norway, Sweden, Italy, Portugal, Greece, Serbia, Russia, South Africa, and Egypt.
+
+\  
+
+The second installment of the series, "INTENT 2021", was produced in midst of the coronavirus pandemic. Linn's goals for 2020 were fulfilled successfully, despite the pandemic, providing inspiration to continue the series. The structure of the compilations was designed to accommodate all incoming tracks, ranging from dark ambient pieces with a dystopian bent to traditional electronic music inspired by the Berlin School and shimmering with bright melodies and optimism. Linn sought to create a continuous flow across all compilation volumes; the compilations are designed to be listened to in their entirety. "INTENT 2021" was produced by Linn with substantial input from Fabian van den Eijnden, Graham Fialkiewicz and Slavek Kwi a.k.a. Artificial Memory Trace. The installment features 65 tracks by artists from the United Kingdom, the United States, Canada, Ireland, Germany, Belgium, the Netherlands, France, Norway, Sweden, Italy, Portugal, Croatia, Greece, Turkey, and Egypt.
+
+\  
+
+The third installment of the series was called "INTENT 2022". It took a much more radical direction than the previous installments, with the tracks being collected with the help of a dedicated submission form written in R Shiny. The form's UI design was overseen by Franck Besnard, the head of Kalamine Records. A dashboard app was created in order to provide data-driven insights about the series. The production process was completely overhauled, with very few aspects of the production alias Nova Beat Estate remaining. "INTENT 2022" included a special mix of the uni.Sol_ session organized by Linn on December 21st, 2021. This session featured artists from around the world who engaged in live improvisation without hearing one another during a particular time window, exploring the possibility of artistic connection beyond conventional methods. The installment features 47 tracks by artists from the United Kingdom, the United States, Canada, Ireland, France, Germany, Belgium, the Netherlands, Sweden, Italy, Greece, Czech Republic, Slovakia, North Macedonia, China, Mexico, and Indonesia.
+
+\  
+
+The series is available as free downloads from the **[Internet Archive](https://archive.org/search.php?query=subject%3A%22intent%22&and[]=subject%3A%22linn+friberg%22)**.
+
+\newpage
+
+# Discography
+
+```{r}
+library(tibble)
+tribble(
+  ~ Album, ~ Year, ~ Label, 
+  "INTENT 2020: Solid State", "2020", "Kalamine Records",
+  "INTENT 2020: Liquid State", "2020", "Kalamine Records",
+  "INTENT 2020: Vapor State", "2020", "Kalamine Records",
+  "INTENT 2021: Undertow", "2021", "Kalamine Records",
+  "INTENT 2021: Chrysalism", "2021", "Kalamine Records",
+  "INTENT 2021: Softshell", "2021", "Kalamine Records",
+  "INTENT 2021: Flashover", "2021", "Kalamine Records",
+  "INTENT 2021: Ardor", "2021", "Kalamine Records",
+  "INTENT 2021: Open Sky", "2021", "Kalamine Records",
+  "INTENT 2022: L'évolution Radicale", "2022", "Kalamine Records",
+  "INTENT 2022: Surmonter L'adversité", "2022", "Kalamine Records",
+  "INTENT 2022: Les Ténèbres Disparaissent", "2022", "Kalamine Records",
+  "INTENT 2022: La Grâce Et La Réconciliation", "2022", "Kalamine Records",
+  "INTENT 2022/uni.Sol_: Nouveaux Commencements", "2022", "Kalamine Records",
+  "INTENT 2022: L'équilibre Dans La Vie", "2022", "Kalamine Records",
+) %>% 
+  detailed_entries(Album, Year, Label)
+
+```
+
