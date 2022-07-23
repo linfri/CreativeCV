@@ -1,0 +1,34 @@
+---
+name: Linn Ruth Friberg
+address: "Norrköping, Sweden / Stockholm, Sweden"
+www: archive.org/details/linfri-repo
+date: "July 2022"
+output: vitae::hyndman
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# Biography
+
+\  
+
+Linn Ruth Friberg has been creating music since the mid-2000s. Throughout her life she has taken on many responsibilities, developing a wide range of skills. The purpose of this repository is to serve as an overview of Linn's artistic contributions and roles from the 2000s to the present day. It also functions as a secondary archive, housing materials pertaining to her career in statistics, data analysis, and machine learning.
+
+\  
+
+Since the mid-2000s Linn has taken on two artistic aliases and participated in seven different musical bands and projects, working with participants from eleven different countries and mastering the art of international collaboration. Between 2006 and 2012 she ran a record label based in Cyprus. The label became home to seventeen albums by both local and international artists, and was resurrected between 2019 and 2021 as a production alias. Linn organized three open-air music festivals in Cyprus in connection with the label's activities. She was also running a mastering service within the label and working with graphic design and IT-related tasks using her competence as an IT technician. She started producing compilations, with the first batch of the **[INTENT](https://archive.org/download/linfri-repo/INTENT.pdf)** series coming out in 2020. As of 2022, the INTENT series has featured 78 artists from 25 different countries. She was active as a creative writer as well, producing a script for a film project which was reworked into an audio drama in 2019.
+
+\  
+
+As of 2022, Linn is studying statistics and machine learning at Linköping University, Sweden, and running a data science blog where she practices the skills learned at the university. She continues to create her own music, which can be licensed through **[IMLC](https://imlcollective.uk/)**. She also continues to work on the INTENT series every year and participate in diverse projects of the Irish artist Slavek Kwi, who is also known as Artificial Memory Trace. Linn combines her developing skills in data science with domain knowledge, including music, in diverse real-world projects implemented with the help of R. She speaks English, Swedish, Norwegian (østnorsk), and has studied Icelandic and Latin at the university level. She resides in both Stockholm and Norrköping, Sweden, and travels between the cities on a regular basis. A number of her projects are based solely in Stockholm, while others, particularly after 2020, have their origins in Norrköping.
+
+\  
+
+This repository contains summaries of different projects and bands involving Linn since the mid-2000s, as well as the official logos for the projects and bands, and her "digital garden" containing emerging and maturing ideas. Fresh copies of the GitHub repositories pertaining to her career are also included, such as software she developed. Feel free to explore Linn’s **[Internet Archive](https://archive.org/details/@linfri?sort=-date)** user account containing her artistic, statistical, and coding contributions, as well as her **[GitHub](https://github.com/linfri)** account, **[blog](https://bit.ly/3v58WJZ)** and **[SoundCloud](https://soundcloud.com/linfri)**. If you would like to support Linn's efforts in Creative Commons and Open Source, please consider making a donation through her **[ko-fi](https://ko-fi.com/linfri)** page. This would help Linn to fund future projects, including puzzles and research challenges.
+
+\  
+
+Linn would like to express her gratitude to her friends, especially **[HF](https://emerge.bandcamp.com/track/stop-all-wars-12)** (Long Island, USA), for proofreading and providing valuable feedback on the repository. It should be noted that the links will not work in the Internet Archive page viewer. In order to access the links, the PDFs need to be downloaded and opened in a browser separately.
